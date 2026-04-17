@@ -6,11 +6,24 @@ This extension adds `/sandbox` controls and routes both agent `bash` tool calls 
 
 ## Requirements
 
-> **Required dependency:** this extension needs the **Safehouse CLI** to work.
+> **Required dependency:** this extension needs the **Agent Safehouse CLI** to work.
 
-- Install `safehouse` on your machine.
-- Make sure `safehouse` is available on your `PATH`.
-- If Safehouse is missing, sandboxed execution is blocked and Pi will show an error.
+Safehouse project page: **https://agent-safehouse.dev/**
+
+### Download / install Safehouse (macOS)
+
+```bash
+brew tap eugene1g/safehouse
+brew install agent-safehouse
+```
+
+Verify the install:
+
+```bash
+safehouse --help
+```
+
+If Safehouse is missing, sandboxed execution is blocked and Pi will show an error.
 
 ## Features
 
