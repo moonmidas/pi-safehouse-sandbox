@@ -1,0 +1,28 @@
+{
+  "name": "pi-safehouse-sandbox",
+  "version": "0.1.0",
+  "description": "Pi extension that adds /sandbox controls and Safehouse-backed sandboxing for shell execution.",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "safehouse",
+    "sandbox"
+  ],
+  "license": "MIT",
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "files": [
+    "index.ts",
+    "shared.ts",
+    "localhost-only.sb",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  }
+}
